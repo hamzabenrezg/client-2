@@ -4,7 +4,7 @@ pipeline {
   stage {
     stage ('install') {
       steps {
-        sh 'npm install --loglevel verbose'
+        sh 'npm install '
       }
     }
     stage ('build') {
